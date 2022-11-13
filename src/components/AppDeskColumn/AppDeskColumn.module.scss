@@ -1,0 +1,18 @@
+@import "src/styles/variables";
+// TODO(check reimport of that variables)
+
+.deckColumn{
+  width: $column-width;
+  padding: .5rem;
+  background: $grey-1;
+
+  &__header{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__footer{
+    display: flex;
+    justify-content: space-between;
+  }
+}
